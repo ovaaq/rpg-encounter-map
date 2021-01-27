@@ -5,10 +5,10 @@
 def add_object_to_image(base_image, new_layer, rotate_degrees =0, scale = 1, x=0, y=0):
     """
 
-    :param base_image:
-    :param new_layer:
-    :param rotate_degrees:
-    :param scale:
+    :param base_image: Base image where new layer will be added
+    :param new_layer: New image to be added to the base image
+    :param rotate_degrees: Degrees new layer will be rotated clockwise
+    :param scale: Number to scale the new layer
     :param x:
     :param y:
     :return:
